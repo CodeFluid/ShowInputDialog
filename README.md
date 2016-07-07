@@ -23,7 +23,7 @@ Ejemplo de como utilizar todos los métodos del showInputDialog
 # Código
 El siguiente código fue escrito dentro del botón *buscar* para más comodidad utilizamos un try-catch para capturar un error de dato nulo y utilizamos un switch para el combo box.
 ```sh
-try {
+        try {
             switch (cbInputDialog.getSelectedIndex()) {
             case 0:
                 txtValor.setText(showInputDialog("Ingresa un número"));
